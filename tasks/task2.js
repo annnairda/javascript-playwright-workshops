@@ -1,5 +1,4 @@
 //zadania domowe
-
 // 1. Utwórz tablicę i pobierz z niej ostatni element 
 const array = [1, "Franciszek", 5, "Niebieski"]
 console.log(array[3])
@@ -7,7 +6,10 @@ console.log(array[3])
 const lastElement = array[array.length - 1]
 console.log(lastElement)
 //Niebieski
-
+console.log(array.at(-1))
+//Niebieski
+console.log(array.pop()) //zwraca ostatni element i usuwa go z tablicy
+//Niebieski
 // 2. Napisz program, który na podstawie podanej temperatury w stopniach Celsjusza wypisze odpowiedni komunikat: 
 // • Jeśli temperatura jest poniżej 0, wypisz: Mróz! Ubierz się ciepło! 
 // • Jeśli temperatura jest od 0 do 15 włącznie, wypisz: Chłodno. Przyda się kurtka. 
@@ -21,7 +23,6 @@ if (currentTemperature < 0) {
     console.log("Ciepło! Zostaw kurtkę w domu.");
 };
 //Mróz! Ubierz się ciepło!
-
 // 3. Napisz pętlę, która wyświetli liczby nieparzyste do 20 
 for (let i = 1; i <= 20; i+= 2) {
  console.log(i);
