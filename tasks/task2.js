@@ -3,12 +3,14 @@
 const array = [1, "Franciszek", 5, "Niebieski"]
 console.log(array[3])
 //Niebieski
-const lastElement = array[array.length - 1]
-console.log(lastElement)
+const lastElement1 = array[array.length - 1]
+console.log(lastElement1)
 //Niebieski
-console.log(array.at(-1))
+const lastElement2 = array.at(-1)
+console.log(lastElement2)
 //Niebieski
-console.log(array.pop()) //zwraca ostatni element i usuwa go z tablicy
+const lastElement3 = array.pop()
+console.log(lastElement3) //zwraca ostatni element i usuwa go z tablicy
 //Niebieski
 // 2. Napisz program, który na podstawie podanej temperatury w stopniach Celsjusza wypisze odpowiedni komunikat: 
 // • Jeśli temperatura jest poniżej 0, wypisz: Mróz! Ubierz się ciepło! 
