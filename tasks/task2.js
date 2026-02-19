@@ -1,8 +1,11 @@
 //zadania domowe
 
 // 1. Utwórz tablicę i pobierz z niej ostatni element 
-const table = [1, "Franciszek", 5, "Niebieski"]
-console.log(table[3])
+const array = [1, "Franciszek", 5, "Niebieski"]
+console.log(array[3])
+//Niebieski
+const lastElement = array[array.length - 1]
+console.log(lastElement)
 //Niebieski
 
 // 2. Napisz program, który na podstawie podanej temperatury w stopniach Celsjusza wypisze odpowiedni komunikat: 
