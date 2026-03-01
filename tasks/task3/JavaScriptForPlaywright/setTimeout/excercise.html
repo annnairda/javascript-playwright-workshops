@@ -18,9 +18,19 @@
 <script>
 	function showHello() {
 		// Tutaj dodaj setTimeout, który po 2 sekundach wpisze "Cześć!" do elementu <p>. Skorzystaj z właściwości innerText, aby zmienić tekst w środku elementu.
-
+		setTimeout(() => {
+			document.getElementById('message').innerText = 'Cześć!';
+		},2000);
+		/*
+		//without click
+		setTimeout(function () {
+			const firstParagraph = document.querySelector('p');
+			console.log(firstParagraph.textContent = ("Cześć! Minęły 2 sekundy.");
+		}, 2000);
+		*/
 	}
 </script>
 
 </body>
+
 </html>
